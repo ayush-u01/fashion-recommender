@@ -6,12 +6,11 @@ from transformers import pipeline
 import json
 import spacy
 import spacy_streamlit
-
 import os
 from PIL import Image
 import numpy as np
 import pickle
-# import tensorflow
+import tensorflow
 from sklearn.neighbors import NearestNeighbors
 from numpy.linalg import norm
 
