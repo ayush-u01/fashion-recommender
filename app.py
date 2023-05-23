@@ -14,7 +14,6 @@ import tensorflow
 from sklearn.neighbors import NearestNeighbors
 from numpy.linalg import norm
 
-
 def draw_all( key, plot=False, ):
     st.write(
         """
